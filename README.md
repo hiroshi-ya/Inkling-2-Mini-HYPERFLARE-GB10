@@ -24,7 +24,7 @@ at `ed40e7da`. This package can be served with vision support, a full **1,048,57
 
 ## Before you get your hands on
 
-The current implementation has a very low decode throughput. Check `llama-benchy` results at [`BENCH.md`](BENCH.md). These results were obtained via:
+The current implementation has a very low decode throughput. Check [`llama-benchy`](https://github.com/eugr/llama-benchy) results at [`BENCH.md`](BENCH.md). These results were obtained via:
 ```console
 $ flare run $INKLING_2_MINI_MODEL_PATH \
   --mtp-draft-tokens 5 \
