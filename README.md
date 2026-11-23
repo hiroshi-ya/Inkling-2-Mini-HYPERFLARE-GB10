@@ -117,7 +117,7 @@ $ ignition export thinkingmachines/Inkling-2-Mini \
 
 If you would like to use a core with its drafter completely disabled, you can pull the `gb10-no-mtp` branch instead:
 - Replace `--revision gb10` with `--revision gb10-no-mtp` if using `hf`
-- Replace `hiroshiya/Inkling-2-Mini-HYPERFLARE-GB10` with `hiroshiya/Inkling-2-Mini-HYPERFLARE-GB10@gb10-no-mtp` if using `hf`
+- Replace `hiroshiya/Inkling-2-Mini-HYPERFLARE-GB10` with `hiroshiya/Inkling-2-Mini-HYPERFLARE-GB10@gb10-no-mtp` if using `flare`
 
 ### Serve
 Verify the existence of the model:
