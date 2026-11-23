@@ -154,7 +154,7 @@ $ curl http://$SERVER_IP:$SERVER_PORT/v1/chat/completions \
 
 ## Reproduction
 
-If you want to export the Hyperflare core by yourself, I made a detailed (human-written) step-by-step [guide](https://github.com/hiroshi-ya/GLM-5.3-Flash-HYPERFLARE-TP2/blob/main/README.md#reproduction) on how to export a Hyperflare package. It uses `GLM-5.3-Flash` as an example. However, as previously stated, `Inkling-2-Mini` cannot be exported as a TP=2 core by Hyperflare yet, so the steps will be slightly different (and easier).
+If you want to export the Hyperflare core by yourself, I wrote a detailed step-by-step [guide](https://github.com/hiroshi-ya/GLM-5.3-Flash-HYPERFLARE-TP2/blob/main/README.md#reproduction) on exporting a Hyperflare package. It uses `GLM-5.3-Flash` as an example. However, as previously stated, `Inkling-2-Mini` cannot be exported as a TP=2 core by Hyperflare yet, so the steps will be slightly different (and easier).
 
 ## Credits
 
