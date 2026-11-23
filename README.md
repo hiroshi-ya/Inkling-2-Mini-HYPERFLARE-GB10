@@ -65,7 +65,7 @@ Prerequisites:
 | speculation          | mtp · widths 1, 6    |
 
 > [!NOTE]
-> As of `b9cac839`, Hyperflare does not support serving Inkling-2-Mini via a TP=2 setup. Besides, one cannot freely adjust the amount of draft tokens, meaning that `--mtp-draft-tokens <N>` can either be the exported core's drafter configuration or zero. If you want to adjust the model properties, you have to export your own package. Here is a detailed [guide](https://github.com/hiroshi-ya/GLM-5.3-Flash-HYPERFLARE-TP2/blob/main/README.md#reproduction) on how to reproduce a Hyperflare core.
+> As of `b9cac839`, Hyperflare does not support serving Inkling-2-Mini via a TP=2 setup. Besides, one cannot freely adjust the amount of draft tokens, meaning that `--mtp-draft-tokens <N>` can either be the exported core's  configuration (`N=5` in this case) or zero. If you want to adjust the model properties, you have to export your own package. Here is a detailed [guide](https://github.com/hiroshi-ya/GLM-5.3-Flash-HYPERFLARE-TP2/blob/main/README.md#reproduction) on how to export your own Hyperflare core.
 
 ### Obtain `flare`
 Install the following build dependencies:
