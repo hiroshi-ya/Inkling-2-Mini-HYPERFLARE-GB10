@@ -89,7 +89,7 @@ After a successful compilation, the `flare` executable binary will be generated 
 ### Obtain this model package
 If you have the `hf` CLI tool:
 ```console
-$ hf download hiroshiya/GLM-5.3-Flash-HYPERFLARE-GB10-TP2 \
+$ hf download hiroshiya/Inkling-2-Mini-HYPERFLARE-GB10 \
     --revision gb10 \
     --local-dir /your/desired/path/
 ```
